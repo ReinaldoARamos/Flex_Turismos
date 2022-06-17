@@ -116,9 +116,30 @@ div img{
         background-color: #122A57;
         width: 100%;
     }
-
     .flex-container-out img{
    
         width: 120px;
       
+    }
+
+  
+
+    #Services {
+        flex-direction: column;
+    }
+
+    #Services h2{
+        color: #fff;
+        font-size: 32px;
+    }
+    .list-services{
+        display: flex;
+        justify-content: space-around;
+     
+    }
+
+    .list-services  .itens-services{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
     }

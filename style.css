@@ -1,7 +1,7 @@
 *{
-    margin:auto;
+    margin:0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'sans-serif'
 }
 
 ul{
@@ -16,6 +16,10 @@ ul li a{
 
 .flex-container{
     display: flex;
-    max-width: 990px;
+    max-width: 992px;
     margin: auto;
+}
+
+header{
+    background-color: aqua;
 }

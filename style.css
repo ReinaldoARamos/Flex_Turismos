@@ -116,3 +116,9 @@ div img{
         background-color: #122A57;
         width: 100%;
     }
+
+    .flex-container-out img{
+   
+        width: 120px;
+      
+    }

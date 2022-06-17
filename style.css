@@ -35,10 +35,19 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        
+        ;
+        
+    }
+    header .list-itens a{
+      
+      color: #fff  ;
+        
     }
 
     header .menu{
         justify-content: space-between;
+    
     }
 
     .present{
@@ -96,4 +105,9 @@ div img{
     #quem-somos{
     margin-bottom: 10px;
     width: 90%;
+    }
+
+    #quem-somos {
+    min-width: 420px;
+    
     }

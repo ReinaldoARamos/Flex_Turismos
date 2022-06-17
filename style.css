@@ -111,3 +111,8 @@ div img{
     min-width: 420px;
     
     }
+
+    .flex-container-out{
+        background-color: #122A57;
+        width: 100%;
+    }

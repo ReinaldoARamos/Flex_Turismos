@@ -68,7 +68,10 @@
         text-align: center;
         text-decoration: none   ;
     }
-
+div img{
+    display: block;
+    width: 100%;
+}
     #quem-somos {
         align-items: center;
         justify-content: space-between;
@@ -88,4 +91,9 @@
         margin-right: 5px;
         background-color: #122A57;
         position: relative;
+    }
+
+    #quem-somos{
+    margin-bottom: 10px;
+    width: 90%;
     }

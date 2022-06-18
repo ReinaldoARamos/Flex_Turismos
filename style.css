@@ -176,3 +176,22 @@ div img{
         width: 80%;
         margin: auto;
     }
+
+    #planos{
+        flex-direction: column;
+        display: flex;
+    }
+    
+
+    .list-planos{
+        display: flex;
+        
+        align-items: flex-end;
+    }
+
+    .item-planos{
+        flex: 1;
+        margin-right: 20px;
+        border: 2px solid #122A57;
+        
+    }

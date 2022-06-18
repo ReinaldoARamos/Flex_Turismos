@@ -190,8 +190,32 @@ div img{
     }
 
     .item-planos{
+        
         flex: 1;
         margin-right: 20px;
         border: 2px solid #122A57;
+        padding: 10x;
+    }
+
+    .item-planos .btn{
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
         
     }
+
+    .item-planos h3{
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-planos h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
